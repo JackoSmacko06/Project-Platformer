@@ -1,0 +1,104 @@
+
+player test.png
+size: 207,707
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bicep left
+  rotate: true
+  xy: 2, 453
+  size: 88, 140
+  orig: 88, 140
+  offset: 0, 0
+  index: -1
+bicep right
+  rotate: true
+  xy: 2, 363
+  size: 88, 140
+  orig: 88, 140
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 53
+  size: 128, 308
+  orig: 128, 308
+  offset: 0, 0
+  index: -1
+eye left
+  rotate: false
+  xy: 120, 2
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+eye right
+  rotate: false
+  xy: 120, 2
+  size: 45, 45
+  orig: 45, 45
+  offset: 0, 0
+  index: -1
+forearm leftr
+  rotate: false
+  xy: 166, 573
+  size: 34, 132
+  orig: 34, 132
+  offset: 0, 0
+  index: -1
+forearm right
+  rotate: false
+  xy: 166, 439
+  size: 34, 132
+  orig: 34, 132
+  offset: 0, 0
+  index: -1
+hair 1
+  rotate: true
+  xy: 132, 239
+  size: 92, 73
+  orig: 92, 73
+  offset: 0, 0
+  index: -1
+hair 2
+  rotate: true
+  xy: 144, 333
+  size: 104, 53
+  orig: 104, 53
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 2, 543
+  size: 162, 162
+  orig: 162, 162
+  offset: 0, 0
+  index: -1
+shin left
+  rotate: true
+  xy: 2, 29
+  size: 22, 116
+  orig: 22, 116
+  offset: 0, 0
+  index: -1
+shin right
+  rotate: true
+  xy: 2, 5
+  size: 22, 116
+  orig: 22, 116
+  offset: 0, 0
+  index: -1
+thigh left
+  rotate: false
+  xy: 132, 144
+  size: 65, 93
+  orig: 65, 93
+  offset: 0, 0
+  index: -1
+thigh right
+  rotate: false
+  xy: 132, 49
+  size: 65, 93
+  orig: 65, 93
+  offset: 0, 0
+  index: -1

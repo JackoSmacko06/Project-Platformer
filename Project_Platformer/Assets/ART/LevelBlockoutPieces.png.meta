@@ -1,0 +1,447 @@
+fileFormatVersion: 2
+guid: 71cbd1b32e2de49afb6003b8d5bbc021
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -441205240913870129
+    second: LevelBlockoutPieces_0
+  - first:
+      213: 575078359572698039
+    second: LevelBlockoutPieces_1
+  - first:
+      213: -2519938170369392006
+    second: LevelBlockoutPieces_2
+  - first:
+      213: -6924152087192306567
+    second: LevelBlockoutPieces_3
+  - first:
+      213: -5637768684118966721
+    second: LevelBlockoutPieces_4
+  - first:
+      213: 5756138193403064234
+    second: LevelBlockoutPieces_5
+  - first:
+      213: -8034943269892346373
+    second: LevelBlockoutPieces_6
+  - first:
+      213: 6110593196470345722
+    second: LevelBlockoutPieces_7
+  - first:
+      213: 8075988621950544759
+    second: LevelBlockoutPieces_8
+  - first:
+      213: -2252461712931375524
+    second: LevelBlockoutPieces_9
+  - first:
+      213: -6567153949030565485
+    second: LevelBlockoutPieces_10
+  - first:
+      213: 6150632591277840030
+    second: LevelBlockoutPieces_11
+  - first:
+      213: -2429455343686024642
+    second: LevelBlockoutPieces_12
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LevelBlockoutPieces_0
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 819
+        width: 654
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2c946cb2680e9f0800000000000000
+      internalID: -441205240913870129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelBlockoutPieces_1
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 839
+        width: 358
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3585c98b61bf700800000000000000
+      internalID: 575078359572698039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelBlockoutPieces_2
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 837
+        width: 195
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a724f23d591670dd0800000000000000
+      internalID: -2519938170369392006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelBlockoutPieces_3
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 398
+        width: 208
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c7f18cc5878ef90800000000000000
+      internalID: -6924152087192306567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelBlockoutPieces_4
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 357
+        width: 136
+        height: 323
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e7441804f92c1b0800000000000000
+      internalID: -5637768684118966721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelBlockoutPieces_5
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 426
+        width: 81
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaf29d78039e1ef40800000000000000
+      internalID: 5756138193403064234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelBlockoutPieces_6
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 591
+        width: 370
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfda6afbaa52e7090800000000000000
+      internalID: -8034943269892346373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelBlockoutPieces_7
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 523
+        width: 304
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff988a03203dc450800000000000000
+      internalID: 6110593196470345722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelBlockoutPieces_8
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 491
+        width: 220
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b657dfcdca31070800000000000000
+      internalID: 8075988621950544759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelBlockoutPieces_9
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 81
+        width: 217
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c56be829106adb0e0800000000000000
+      internalID: -2252461712931375524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelBlockoutPieces_10
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 108
+        width: 284
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 399bab21748ccd4a0800000000000000
+      internalID: -6567153949030565485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelBlockoutPieces_11
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 172
+        width: 171
+        height: 228
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e965e0b11cf6b5550800000000000000
+      internalID: 6150632591277840030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LevelBlockoutPieces_12
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 102
+        width: 78
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e328be99c37d84ed0800000000000000
+      internalID: -2429455343686024642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      LevelBlockoutPieces_1: 575078359572698039
+      LevelBlockoutPieces_10: -6567153949030565485
+      LevelBlockoutPieces_0: -441205240913870129
+      LevelBlockoutPieces_2: -2519938170369392006
+      LevelBlockoutPieces_9: -2252461712931375524
+      LevelBlockoutPieces_3: -6924152087192306567
+      LevelBlockoutPieces_6: -8034943269892346373
+      LevelBlockoutPieces_5: 5756138193403064234
+      LevelBlockoutPieces_12: -2429455343686024642
+      LevelBlockoutPieces_4: -5637768684118966721
+      LevelBlockoutPieces_8: 8075988621950544759
+      LevelBlockoutPieces_11: 6150632591277840030
+      LevelBlockoutPieces_7: 6110593196470345722
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

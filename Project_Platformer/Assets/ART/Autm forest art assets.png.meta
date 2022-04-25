@@ -1,0 +1,796 @@
+fileFormatVersion: 2
+guid: 74053f7ac1fb2f94d9b049dbb8ad9b3d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -897334315473513983
+    second: Autm forest art assets_0
+  - first:
+      213: 4564791738392228683
+    second: Autm forest art assets_1
+  - first:
+      213: 7338841678583256435
+    second: Autm forest art assets_2
+  - first:
+      213: 2768471588571745430
+    second: Autm forest art assets_3
+  - first:
+      213: 5641950709441000488
+    second: Autm forest art assets_4
+  - first:
+      213: -8761046423893668451
+    second: Autm forest art assets_5
+  - first:
+      213: 6058819707765254946
+    second: Autm forest art assets_6
+  - first:
+      213: 6497419198185846658
+    second: Autm forest art assets_7
+  - first:
+      213: 8981972785447028908
+    second: Autm forest art assets_8
+  - first:
+      213: 2042089967342967423
+    second: Autm forest art assets_9
+  - first:
+      213: 409690531655759062
+    second: Autm forest art assets_10
+  - first:
+      213: -6587546191900176452
+    second: Autm forest art assets_11
+  - first:
+      213: 5271869572509599901
+    second: Autm forest art assets_12
+  - first:
+      213: -4495706776013730347
+    second: Autm forest art assets_13
+  - first:
+      213: 3595148195699704138
+    second: Autm forest art assets_14
+  - first:
+      213: -6915162931826991664
+    second: Autm forest art assets_15
+  - first:
+      213: 2106875334788485763
+    second: Autm forest art assets_16
+  - first:
+      213: -7629107574598686874
+    second: Autm forest art assets_17
+  - first:
+      213: 7734358008785429084
+    second: Autm forest art assets_18
+  - first:
+      213: 3510708218472799287
+    second: Autm forest art assets_19
+  - first:
+      213: -1727935739052633570
+    second: Autm forest art assets_20
+  - first:
+      213: 357701951779458331
+    second: Autm forest art assets_21
+  - first:
+      213: 4852452400275724278
+    second: Autm forest art assets_22
+  - first:
+      213: 3004074517059305092
+    second: Autm forest art assets_23
+  - first:
+      213: -1160436375788775315
+    second: Autm forest art assets_24
+  - first:
+      213: 7135335120870425458
+    second: Autm forest art assets_25
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Autm forest art assets_0
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 1574
+        width: 313
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102de61c1370c83f0800000000000000
+      internalID: -897334315473513983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autm forest art assets_1
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 1722
+        width: 560
+        height: 234
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b43b18896e5695f30800000000000000
+      internalID: 4564791738392228683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autm forest art assets_2
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 1685
+        width: 344
+        height: 253
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37559c2bf9dc8d560800000000000000
+      internalID: 7338841678583256435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autm forest art assets_3
+      rect:
+        serializedVersion: 2
+        x: 2121
+        y: 911
+        width: 125
+        height: 997
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c8497ed369b6620800000000000000
+      internalID: 2768471588571745430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autm forest art assets_4
+      rect:
+        serializedVersion: 2
+        x: 2367
+        y: 907
+        width: 140
+        height: 1037
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8247e74274c3c4e40800000000000000
+      internalID: 5641950709441000488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autm forest art assets_5
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 1627
+        width: 11
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d8c1b02b28a6680800000000000000
+      internalID: -8761046423893668451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autm forest art assets_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1329
+        width: 461
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22beb775c60451450800000000000000
+      internalID: 6058819707765254946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autm forest art assets_7
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 1317
+        width: 254
+        height: 232
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 287bba006587b2a50800000000000000
+      internalID: 6497419198185846658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autm forest art assets_8
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 1412
+        width: 45
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca8cbcae8a066ac70800000000000000
+      internalID: 8981972785447028908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autm forest art assets_9
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 1373
+        width: 361
+        height: 159
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7addde7106f65c10800000000000000
+      internalID: 2042089967342967423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autm forest art assets_10
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 1357
+        width: 153
+        height: 175
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d4be2f2e538fa500800000000000000
+      internalID: 409690531655759062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autm forest art assets_11
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 1505
+        width: 451
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf005a04a55494a0800000000000000
+      internalID: -6587546191900176452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autm forest art assets_12
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 1309
+        width: 327
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9800a3d171792940800000000000000
+      internalID: 5271869572509599901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autm forest art assets_13
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 1034
+        width: 223
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd8269a18a0c91c0800000000000000
+      internalID: -4495706776013730347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autm forest art assets_14
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 1159
+        width: 184
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41419f6c3884e130800000000000000
+      internalID: 3595148195699704138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autm forest art assets_15
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 1143
+        width: 145
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ddd08c93f76800a0800000000000000
+      internalID: -6915162931826991664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autm forest art assets_16
+      rect:
+        serializedVersion: 2
+        x: 1657
+        y: 1158
+        width: 358
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 382991c44ff1d3d10800000000000000
+      internalID: 2106875334788485763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autm forest art assets_17
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 1073
+        width: 99
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667adc6e417ff1690800000000000000
+      internalID: -7629107574598686874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autm forest art assets_18
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 26
+        width: 502
+        height: 374
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c526a5f61a5f55b60800000000000000
+      internalID: 7734358008785429084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autm forest art assets_19
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 45
+        width: 371
+        height: 364
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c9d10368a88b030800000000000000
+      internalID: 3510708218472799287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autm forest art assets_20
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 788
+        width: 173
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12d01fa9932508e0800000000000000
+      internalID: -1727935739052633570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autm forest art assets_21
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 811
+        width: 103
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d474ba700d6f400800000000000000
+      internalID: 357701951779458331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autm forest art assets_22
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 1313
+        width: 44
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f71de7afbf575340800000000000000
+      internalID: 4852452400275724278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autm forest art assets_23
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 397
+        width: 530
+        height: 303
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e7f146bdd90b920800000000000000
+      internalID: 3004074517059305092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autm forest art assets_24
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 387
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d681ba4b34d45efe0800000000000000
+      internalID: -1160436375788775315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autm forest art assets_25
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 98
+        width: 470
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273c9d0ec7dc50360800000000000000
+      internalID: 7135335120870425458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Autm forest art assets_12: 5271869572509599901
+      Autm forest art assets_5: -8761046423893668451
+      Autm forest art assets_13: -4495706776013730347
+      Autm forest art assets_21: 357701951779458331
+      Autm forest art assets_18: 7734358008785429084
+      Autm forest art assets_10: 409690531655759062
+      Autm forest art assets_25: 7135335120870425458
+      Autm forest art assets_16: 2106875334788485763
+      Autm forest art assets_17: -7629107574598686874
+      Autm forest art assets_2: 7338841678583256435
+      Autm forest art assets_3: 2768471588571745430
+      Autm forest art assets_23: 3004074517059305092
+      Autm forest art assets_20: -1727935739052633570
+      Autm forest art assets_24: -1160436375788775315
+      Autm forest art assets_22: 4852452400275724278
+      Autm forest art assets_0: -897334315473513983
+      Autm forest art assets_7: 6497419198185846658
+      Autm forest art assets_14: 3595148195699704138
+      Autm forest art assets_6: 6058819707765254946
+      Autm forest art assets_4: 5641950709441000488
+      Autm forest art assets_19: 3510708218472799287
+      Autm forest art assets_15: -6915162931826991664
+      Autm forest art assets_9: 2042089967342967423
+      Autm forest art assets_1: 4564791738392228683
+      Autm forest art assets_11: -6587546191900176452
+      Autm forest art assets_8: 8981972785447028908
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
