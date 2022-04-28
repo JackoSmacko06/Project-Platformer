@@ -22,6 +22,7 @@ public class dissapearingPlatform : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             StartCoroutine(Dissapear());
+            collision.gameObject.GetComponent<PlayerController>().coyoteTimeCounter = collision.gameObject.GetComponent<PlayerController>().coyoteTime;
         }
     }
 
