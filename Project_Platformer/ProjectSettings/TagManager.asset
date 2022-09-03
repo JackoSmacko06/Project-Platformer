@@ -12,6 +12,8 @@ TagManager:
   - collectable
   - block
   - door3
+  - zoom
+  - freeze
   layers:
   - Default
   - TransparentFX

@@ -20,6 +20,8 @@ public class PlayerController : MonoBehaviour
 
     public Transform butterflyPos;
 
+   
+
     [Header("Movement")]
     [HideInInspector]
     public float speed;
@@ -126,6 +128,7 @@ public class PlayerController : MonoBehaviour
         canTP = true;
 
         extraJumps = extraJumpsValue;
+
 
     }
 
@@ -372,6 +375,20 @@ public class PlayerController : MonoBehaviour
             Destroy(collision.gameObject);
         }
 
+        if (collision.gameObject.tag == "zoom")
+        {
+
+            VirCam.m_Lens.FieldOfView = 100;
+        }
+
+        if (collision.gameObject.tag == "freeze")
+        {
+            rb.constraints = RigidbodyConstraints2D.FreezeAll;
+            canChangeDirection = false;
+            cameraShake.instance.Shake(3, 4, 10);
+
+            ArmDof.anim.
+        }
 
 
     }
