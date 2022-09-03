@@ -37,6 +37,8 @@ public class PlayerController : MonoBehaviour
 
     public bool changingDirection => (rb.velocity.x > 0f && moveInput < 0f) || (rb.velocity.x < 0f && moveInput > 0f);
 
+    private bool canChangeDirection = true;
+
 
     [Header("Jumping")]
     public float maxJumpForce;
@@ -73,6 +75,9 @@ public class PlayerController : MonoBehaviour
     public float yWallForce;
     public float wallJumpTime;
     public bool walljumpUnlocked = false;
+    public float wallcoyoteTime;
+    public float wallcoyoteTimeCounter;
+    public bool offwalljump;
 
     [Header("Dash")]
     IEnumerator dashCoroutine;
@@ -93,6 +98,7 @@ public class PlayerController : MonoBehaviour
     public bool doubleJumpUnlocked;
     public float variableJumpHeightMultiplier;
     public float doubleJumpForce;
+    public Transform tpPoint;
 
 
     [Header("Attacking")]
@@ -130,7 +136,10 @@ public class PlayerController : MonoBehaviour
 
         isTouchingFront = Physics2D.OverlapCircle(fronCheck.position, checkRadius, whatIsGround);
 
-
+        if(wallcoyoteTimeCounter > 0)
+        {
+            wallcoyoteTimeCounter -= Time.deltaTime;
+        }
 
         if (Input.GetKeyDown(KeyCode.LeftShift) && canDash && dashUnlocked)
         {
@@ -147,6 +156,7 @@ public class PlayerController : MonoBehaviour
         {
             wallSliding = true;
             coyoteTimeCounter = coyoteTime;
+            wallcoyoteTimeCounter = wallcoyoteTime;
         }
         else
         {
@@ -160,16 +170,36 @@ public class PlayerController : MonoBehaviour
         }
 
 
-        if (Input.GetKeyDown(KeyCode.Space) && wallSliding == true)
+        if (Input.GetKeyDown(KeyCode.Space) && !isGrounded && wallcoyoteTimeCounter > 0 && wallSliding == false)
         {
             wallJumping = true;
             Invoke("SetWallJumpingToFalse", wallJumpTime);
+            offwalljump = true;
+            Invoke("SetoffwallToFalse", wallJumpTime);
+
         }
 
-        if (wallJumping == true && coyoteTimeCounter > 0)
+        if (Input.GetKeyDown(KeyCode.Space) && !isGrounded && wallcoyoteTimeCounter > 0 && wallSliding == true)
         {
-            rb.velocity = new Vector2(xWallForce * -moveInput, yWallForce);
-            coyoteTimeCounter = 0;
+            wallJumping = true;
+            Invoke("SetWallJumpingToFalse", wallJumpTime);
+
+        }
+
+        if (wallJumping == true)
+        {
+            if(offwalljump == true)
+            {
+                rb.velocity = new Vector2(xWallForce * moveInput, yWallForce);
+                coyoteTimeCounter = 0;
+            }
+            else
+            {
+                rb.velocity = new Vector2(xWallForce * -moveInput, yWallForce);
+                coyoteTimeCounter = 0;
+            }
+            
+
         }
 
 
@@ -294,6 +324,7 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.gameObject.tag == "doubleJump")
         {
+            transform.position = tpPoint.position;
             doubleJumpUnlocked = true;
             Destroy(collision.gameObject);
 
@@ -343,6 +374,16 @@ public class PlayerController : MonoBehaviour
 
 
 
+    }
+
+    public void CantTurn()
+    {
+        canChangeDirection = false;
+    }
+
+    public void CanTurn()
+    {
+        canChangeDirection = true;
     }
 
     public void Run()
@@ -450,6 +491,11 @@ public class PlayerController : MonoBehaviour
         wallJumping = false;
     }
 
+    void SetoffwallToFalse()
+    {
+        offwalljump = false;
+    }
+
     public void isAttackingTrue()
     {
         isAttacking = true;
@@ -503,11 +549,14 @@ public class PlayerController : MonoBehaviour
 
     void Flip()
     {
-
-        facingright = !facingright;
-        Vector3 Scaler = transform.localScale;
-        Scaler.x *= -1;
-        transform.localScale = Scaler;
+        if (canChangeDirection)
+        {
+            facingright = !facingright;
+            Vector3 Scaler = transform.localScale;
+            Scaler.x *= -1;
+            transform.localScale = Scaler;
+        }
+  
     }
 
     private void OnDrawGizmosSelected()

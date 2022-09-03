@@ -81,7 +81,7 @@ TextureImporter:
       213: 7135335120870425458
     second: Autm forest art assets_25
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -141,6 +141,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -192,6 +193,18 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Windows Store Apps
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
     maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
@@ -751,6 +764,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Autm forest art assets_26
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 545
+        width: 408
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba8d7e0c4cfff9c4a87272a08c4a7696
+      internalID: -1353092887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -786,6 +820,7 @@ TextureImporter:
       Autm forest art assets_15: -6915162931826991664
       Autm forest art assets_9: 2042089967342967423
       Autm forest art assets_1: 4564791738392228683
+      Autm forest art assets_26: -1353092887
       Autm forest art assets_11: -6587546191900176452
       Autm forest art assets_8: 8981972785447028908
   spritePackingTag: 
