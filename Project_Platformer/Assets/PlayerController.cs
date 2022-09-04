@@ -10,8 +10,10 @@ public class PlayerController : MonoBehaviour
     [Header("Other")]
     private Rigidbody2D rb;
     private Animator anim;
+    private Animator bossAnim;
     public SpriteRenderer Spr;
     public CinemachineVirtualCamera VirCam;
+    private CinemachineVirtualCamera VC;
 
     public float transitionDur;
     private float elapsedTime;
@@ -19,6 +21,8 @@ public class PlayerController : MonoBehaviour
     private float percentageComplete;
 
     public Transform butterflyPos;
+
+    public GameObject bossArm;
 
    
 
@@ -124,10 +128,14 @@ public class PlayerController : MonoBehaviour
 
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        
 
         canTP = true;
 
         extraJumps = extraJumpsValue;
+
+        bossAnim = bossArm.GetComponent<Animator>();
+
 
 
     }
@@ -325,6 +333,11 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if(collision.gameObject.tag == "nextlvl")
+        {
+            levelLoader.Instance.nextlevelWhite();
+        }
+        
         if (collision.gameObject.tag == "doubleJump")
         {
             transform.position = tpPoint.position;
@@ -379,6 +392,16 @@ public class PlayerController : MonoBehaviour
         {
 
             VirCam.m_Lens.FieldOfView = 100;
+            //VirCam.m_TrackedObjectOffset.z = 7;
+
+            
+
+
+
+
+
+
+
         }
 
         if (collision.gameObject.tag == "freeze")
@@ -387,7 +410,8 @@ public class PlayerController : MonoBehaviour
             canChangeDirection = false;
             cameraShake.instance.Shake(3, 4, 10);
 
-            ArmDof.anim.
+            bossAnim.SetTrigger("rise");
+
         }
 
 

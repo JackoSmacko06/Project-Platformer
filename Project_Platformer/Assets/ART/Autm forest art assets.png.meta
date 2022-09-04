@@ -773,7 +773,7 @@ TextureImporter:
         width: 408
         height: 111
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -781,6 +781,48 @@ TextureImporter:
       bones: []
       spriteID: ba8d7e0c4cfff9c4a87272a08c4a7696
       internalID: -1353092887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autm forest art assets_27
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 98
+        width: 260
+        height: 313
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b22aec2c3458bce44896e00e648efb41
+      internalID: -746909346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Autm forest art assets_28
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 104
+        width: 277
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b30c0f7047ffb44ae818a7ded6bb7e
+      internalID: -309102368
       vertices: []
       indices: 
       edges: []
@@ -811,7 +853,9 @@ TextureImporter:
       Autm forest art assets_20: -1727935739052633570
       Autm forest art assets_24: -1160436375788775315
       Autm forest art assets_22: 4852452400275724278
+      Autm forest art assets_28: -746909346
       Autm forest art assets_0: -897334315473513983
+      Autm forest art assets_27: -128763960
       Autm forest art assets_7: 6497419198185846658
       Autm forest art assets_14: 3595148195699704138
       Autm forest art assets_6: 6058819707765254946

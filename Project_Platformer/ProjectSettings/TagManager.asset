@@ -14,6 +14,8 @@ TagManager:
   - door3
   - zoom
   - freeze
+  - eyes
+  - nextlvl
   layers:
   - Default
   - TransparentFX
@@ -25,8 +27,8 @@ TagManager:
   - enemy
   - water
   - spike
-  - 
-  - 
+  - Post Processing
+  - Post Processing 2
   - 
   - 
   - 
