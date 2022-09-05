@@ -9,11 +9,13 @@ public class dissapearingPlatform : MonoBehaviour
 
     public float waitTime;
     public float regenTime;
+    private Animator anim;
 
     private void Start()
     {
         boxCol = GetComponent<BoxCollider2D>();
         spr = GetComponent<SpriteRenderer>();
+        anim = GetComponent<Animator>();
     }
 
 
@@ -21,6 +23,7 @@ public class dissapearingPlatform : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
+            
             StartCoroutine(Dissapear());
             collision.gameObject.GetComponent<PlayerController>().coyoteTimeCounter = collision.gameObject.GetComponent<PlayerController>().coyoteTime;
         }
@@ -30,11 +33,13 @@ public class dissapearingPlatform : MonoBehaviour
     {
 
         yield return new WaitForSeconds(waitTime);
-        boxCol.enabled = false;
-        spr.enabled = false;
+        anim.SetTrigger("fadeaway");
+        //boxCol.enabled = false;
+        //spr.enabled = false;
         yield return new WaitForSeconds(regenTime);
-        boxCol.enabled = true;
-        spr.enabled = true;
+        anim.SetTrigger("fadeback");
+        //boxCol.enabled = true;
+        //spr.enabled = true;
 
     }
 
